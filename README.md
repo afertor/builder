@@ -11,8 +11,8 @@ En la clase Main, se utiliza BuilderCasa para crear dos objetos de la clase Casa
 
 Finalmente, se verifica que cada casa haya sido construida correctamente al imprimir sus atributos. Este ejemplo ilustra cómo el patrón Builder puede simplificar la creación de objetos complejos con múltiples atributos, lo que permite la creación de objetos con diferentes configuraciones sin tener que definir múltiples constructores con diferentes combinaciones de parámetros. Como resultado, el código se vuelve más modular y escalable.
 
-`mermaid 
-  classDiagram
+```mermaid 
+   classDiagram
         class Casa {
             -habitaciones: int
             -banios: int
@@ -47,6 +47,4 @@ Finalmente, se verifica que cada casa haya sido construida correctamente al impr
         }
 
         Casa --* BuilderCasa
-        Main --> "1" BuilderCasa´
-        
-
+        Main --> "1" BuilderCasa
