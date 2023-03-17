@@ -16,7 +16,7 @@ Finalmente, se verifica que cada casa haya sido construida correctamente al impr
 La idea es utilizar el patrón Factory para crear el objeto Builder y, a partir de ahí, utilizar el patrón Builder para construir el objeto complejo con sus diferentes configuraciones.
 
 En el siguiente codigo mostrare como poder combinarlos de manera eficiente: 
-
+```
 public interface Casa {
     String obtenerDescripcion();
 }
