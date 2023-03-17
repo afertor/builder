@@ -12,7 +12,7 @@ Luego, tenemos la clase BuilderPizzas, que tiene un constructor predeterminado q
 Sí, es posible combinar ambos patrones de diseño.
   
     ```mermaid
-    [classDiagram
+    "classDiagram
   Main "1" *-- "1..*" BuilderPizza : association
   class Main{
       +main()
@@ -34,5 +34,5 @@ Sí, es posible combinar ambos patrones de diseño.
     +setIngredientes(List<String>)
     +getTamano() : int
     +setTamano(int)
-  }]
-
+  }"
+```
