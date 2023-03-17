@@ -13,26 +13,17 @@ Luego, tenemos la clase BuilderPizzas, que tiene un constructor predeterminado q
 Sí, es posible combinar ambos patrones de diseño.
   
     ```mermaid
-    classDiagram
-  Main "1" *-- "1..*" BuilderPizza : association
-  class Main{
-      +main()
-  }
-  class BuilderPizza{
-      +tipoMasa(String)
-      +ingredientes(List<String>)
-      +tamano(int)
-      +build() : Pizza
-  }
-  
-  BuilderPizza *-- "1" Pizza : association
-  class Pizza{
-    +Pizza()
-    +Pizza(String, List<String>, int)
-    +getTipoMasa() : String
-    +setTipoMasa(String)
-    +getIngredientes() : List<String>
-    +setIngredientes(List<String>)
-    +getTamano() : int
-    +setTamano(int)
-  }
+        classDiagram
+      Main "1" *-- "1..*" BuilderPizza : association
+      class Main{
+          +main()
+      }
+      class BuilderPizza{
+          +build()
+      }
+      
+      BuilderPizza *-- "1" Pizzas : associatioon
+      class Pizzas{
+        +Pizzas()
+      }
+   
