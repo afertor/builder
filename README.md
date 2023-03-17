@@ -1,5 +1,5 @@
 
-#PATRÓN BUILDER
+# BUILDER
 
 ¿Qué es?
 El patrón Builder es un diseño que permite al constructor de una clase cambiar objetos complejos paso a paso. Esto te permite producir diferentes tipos y representaciones de un objeto utilizando el mismo constructor.
