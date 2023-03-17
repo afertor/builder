@@ -11,7 +11,7 @@ Luego, tenemos la clase BuilderPizzas, que tiene un constructor predeterminado q
 ¿Se puede combinar el patrón Builder con el patrón Factory?
 Sí, es posible combinar ambos patrones de diseño.
   
-  classDiagram
+    classDiagram
       Main "1" *-- "1..*" BuilderPizza : association
       class Main{
           +main()
