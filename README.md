@@ -3,7 +3,7 @@
 
 ¿Cual es el funcionamiento del patron builder? El patrón Builder tiene como función principal separar la construcción de objetos complejos en varias etapas o pasos, lo que permite crear objetos con diferentes configuraciones sin tener que definir diferentes constructores con diferentes parámetros. De esta forma, se puede simplificar la creación de objetos complejos y hacerla más modular y escalable, lo que facilita su mantenimiento y evolución en el tiempo. Al dividir el proceso de construcción en pasos, el patrón Builder también proporciona mayor flexibilidad y control sobre la creación de objetos, lo que puede ser útil en situaciones en las que se requiere crear objetos con configuraciones específicas o personalizadas. 
 
-## EJEMPLO En este ejemplo, se presenta el uso del patrón Builder en Java para crear objetos complejos con múltiples atributos de manera más sencilla. La clase Casa se define con sus atributos y los métodos getter y setter correspondientes.
+# EJEMPLO En este ejemplo, se presenta el uso del patrón Builder en Java para crear objetos complejos con múltiples atributos de manera más sencilla. La clase Casa se define con sus atributos y los métodos getter y setter correspondientes.
 
 A continuación, se presenta la clase BuilderCasa que contiene métodos para establecer cada uno de los atributos de la casa y el método build() para construir un objeto Casa completo.
 
