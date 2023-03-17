@@ -119,7 +119,7 @@ public class Main {
         System.out.println(casa2.obtenerDescripcion());
     }
 }
-´´´
+```
 
 
 ```mermaid 
@@ -159,5 +159,5 @@ public class Main {
 
         Casa --* BuilderCasa
         Main --> "1" BuilderCasa
-
+```
 
